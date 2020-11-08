@@ -1,3 +1,4 @@
+
 body {
   line-height: 1.7;
   font-size: 1em;
@@ -24,9 +25,10 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 14px;
-  font-weight: 300;
-  font-family: 'Spartan', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Nunito', sans-serif;
+  letter-spacing: 0.08em;
 }
 
 /* Change the color of links on hover */
@@ -42,6 +44,7 @@ body {
 
 .hero {
   background-color: #333;
+  background-image: url('');
   color: rgb(255, 255, 255);
   height: 100vh;
   width: 100vw;
@@ -51,12 +54,10 @@ body {
 }
 
 .hero-main {
-  /* border: 1px dashed rgb(0, 132, 165); */
   padding: 0 100px;
   margin: 0 100px;
   height: 80vh;
   font-family: 'Spartan', sans-serif;
-  
 }
 
 .about {
@@ -84,6 +85,13 @@ p {
 .title h2 {
   color: #00afa6;
   font-size: 1.6em;
+  font-family: 'Nunito', sans-serif;
+  letter-spacing: 0.05em;
+}
+.title h1 {
+  font-family: 'Nunito', sans-serif;
+  /* letter-spacing: 0.1em; */
+  color: white;
 }
 
 .about-main {
@@ -98,9 +106,14 @@ p {
 }
 
 .about-statement h2 {
-  font-family: 'Spartan', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  /* letter-spacing: 0.14em; */
   font-weight: bold;
   font-size: 1.5em;
+}
+
+.about-statement p {
+  font-family: 'Quicksand', sans-serif;
 }
 
 .about-skills {
@@ -122,6 +135,7 @@ p {
 }
 
 .skills-title h1 {
+  font-family: 'Nunito', sans-serif;
   padding-bottom: 1.1em;
   padding-top: 1.5em;
   color: #131313;
@@ -129,6 +143,7 @@ p {
 
 .skills p {
   color: #131313;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .logo-icon {
@@ -149,27 +164,82 @@ p {
   /* padding: 0 10px; */
 }
 
-.projects{
-  height: 60em;
+.projects {
+  height: auto;
   width: 100vw;
-  background-color: #1d1d1d;
+  background-color: #00afa6;
   margin-top: -23px;
 }
 
 .projects h1 {
   padding-top: 2em;
+  font-family: 'Nunito', sans-serif;
+  letter-spacing: 0.05em;
   color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-weight: bold;
 }
 
-.projects-display {
-  height: 40em;
-  border: 7px solid #a1a1a1;
-  margin: 0 9em;
-  border-radius: 20px;
+.projects-rows {
+  /* padding: 0 3em; */
+  height: 36em;
+  margin : 0 7em;
 }
+
+.projects-title {
+  margin-bottom: 4em;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  /* letter-spacing: 0.14em; */
+}
+
+.projects-image {
+  border: 10px solid #c4c4c4;
+  width: 90%;
+  border-radius: 1rem;
+}
+
+.projects-description {
+  /* border: 1px dashed rgb(43, 0, 199); */
+  width: 100%;
+  /* padding: 0 1em; */
+  color: white;
+  padding-top: 1em;
+  margin-right: 8em;
+  align-content: flex-end;
+}
+
+.project-row {
+  /* border: 1px dashed red; */
+  display: flex;
+}
+
+.projects-description p {
+  font-size: 1.2em;
+  font-family: 'Quicksand', sans-serif;
+  /* width: 30em; */
+}
+
+.project-name h3 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5em;
+}
+
+.project-links {
+  display: flex;
+  margin-top: 1em;
+}
+
+.app-link {
+  margin-left: 1.5em;
+}
+
 
 .contact {
   height: 20em;
