@@ -25,7 +25,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 400;
   font-family: 'Nunito', sans-serif;
   letter-spacing: 0.08em;
@@ -86,11 +86,9 @@ p {
   color: #00afa6;
   font-size: 1.6em;
   font-family: 'Nunito', sans-serif;
-  letter-spacing: 0.05em;
 }
 .title h1 {
   font-family: 'Nunito', sans-serif;
-  /* letter-spacing: 0.1em; */
   color: white;
 }
 
@@ -167,25 +165,41 @@ p {
 .projects {
   height: auto;
   width: 100vw;
-  background-color: #00afa6;
+  background-color: #1f1f1f;
   margin-top: -23px;
 }
 
 .projects h1 {
   padding-top: 2em;
+  padding-bottom: 1em;
   font-family: 'Nunito', sans-serif;
-  letter-spacing: 0.05em;
+  /* letter-spacing: 0.05em; */
   color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   align-items: center;
   font-weight: bold;
+  border-top: 10px solid #292929
+  /* text-decoration: underline; */
 }
 
-.projects-rows {
+.projects-rows-dark {
+  width: 100vw;
+  background-color: #1f1f1f;
   /* padding: 0 3em; */
-  height: 36em;
-  margin : 0 7em;
+  height: auto;
+  /* margin : 0 10em; */
+  padding-bottom: 8em;
+  width: 100vw;
+}
+
+.projects-rows-light {
+  padding-top: 4em;
+  background-color: #00afa6;
+  height: auto;
+  /* margin : 0 10em; */
+  padding-bottom: 8em;
+  width: 100vw;
 }
 
 .projects-title {
@@ -206,12 +220,13 @@ p {
   width: 100%;
   /* padding: 0 1em; */
   color: white;
-  padding-top: 1em;
-  margin-right: 8em;
+  padding-top: 0.6em;
+  margin-right: 2em;
   align-content: flex-end;
 }
 
 .project-row {
+  margin : 0 10em;
   /* border: 1px dashed red; */
   display: flex;
 }
@@ -219,7 +234,11 @@ p {
 .projects-description p {
   font-size: 1.2em;
   font-family: 'Quicksand', sans-serif;
-  /* width: 30em; */
+  justify-content: left;
+}
+
+.light-projects-image {
+  padding-left: 2em;
 }
 
 .project-name h3 {
