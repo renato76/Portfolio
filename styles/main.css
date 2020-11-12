@@ -35,7 +35,7 @@ body {
 
 .topnav a:hover {
   color: #00afa6;
-  transition: 500ms;
+  transition: 600ms;
 }
 
 .hero {
@@ -239,7 +239,7 @@ body {
 .contacts-container {
   height: 20em;
   width: 100vw;
-  background-color: #333333;
+  background-color: #1a1a1a;
   margin-top: -23px;
   display: block;
 }
@@ -281,14 +281,30 @@ i.fab.fa-github {
 }
 
 i.fas.fa-angle-double-up {
-  font-size: 40px;
   display: flex;
-  color: white;
+  color: #333;
   justify-content: flex-end;
   padding-right: 7%;
+  text-decoration: none;
 }
 i.fas.fa-angle-double-up:hover {
+  color: #c9007c;
+  transition: 600ms;
+  text-decoration: none;
+}
+
+.top-arrow {
+  position: fixed;
+  bottom: 10%;
+  right: 8%;
+}
+
+a {
+  text-decoration: none;
+}
+  
+a:hover {
+  text-decoration: none;
   color: #00afa6;
   transition: 500ms;
 }
-  
