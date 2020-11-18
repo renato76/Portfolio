@@ -324,6 +324,53 @@ a:hover {
   transition: 500ms;
 }
 
+.currently-container {
+  height: 90vh;
+
+}
+.currently-icons {
+  display: flex;
+  flex-direction: column;
+  
+}
+.currently-info {
+  display: flex;
+  flex-direction: row;
+
+  border: 1px dashed red;
+}
+.currently-reading {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  border: 1px dashed rgb(84, 8, 206);
+}
+
+.currently-learning {
+  width: 40%;
+  border: 1px dashed rgb(8, 206, 124);
+  display: flex;
+  flex-direction: column;
+}
+.currently-text {
+  display: flex;
+  flex-direction: row;
+  
+}
+.currently-details-text p {
+  font-size: 18px;
+
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 21px;
+
+}
+i.fas.fa-arrow-alt-circle-right {
+  padding: 20px;
+
+}
+
 
 /* Mobile Version  */
 
@@ -503,6 +550,18 @@ a:hover {
     background-color: 333;
   }
 
+  .navbar {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 4px 0;
+  }
+  
+  .navbar a {
+    padding: 0 20px;
+  }
+
+
   .hero-container {
     height: 99vh;
   }
@@ -526,6 +585,7 @@ a:hover {
   }
 
   .about-text {
+    text-align: left;
     padding-left: 5em;
     padding-right: 5em;
   }
@@ -575,7 +635,7 @@ a:hover {
 } 
 
    /* Tablets Landscape */
-/* @media only screen 
+@media only screen 
 and (min-device-width: 768px) 
 and (max-device-width: 1024px) 
 and (orientation: landscape) 
@@ -607,4 +667,4 @@ body {
 
 
 
-} */
+}
