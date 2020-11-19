@@ -255,7 +255,6 @@ body {
   background-color: #1a1a1a;
   margin-top: -23px;
   padding-top: 20px;
-  display: block;
 }
 
 .contact-heading h1 {
@@ -325,8 +324,9 @@ a:hover {
 }
 
 .currently-container {
-  height: 90vh;
-
+  height: 42em;
+  /* background-color: #1f1f1f; */
+  background-color: #e6e6e6;
 }
 .currently-icons {
   display: flex;
@@ -336,34 +336,56 @@ a:hover {
 .currently-info {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 
-  border: 1px dashed red;
+}
+.currently-heading h2 {
+  padding-left: 130px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  color: #292929;
+}
+.currently-main-heading h1 {
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  padding: 50px 0;
+  color: #141414;
 }
 .currently-reading {
-  width: 40%;
+  width: 43%;
   display: flex;
   flex-direction: column;
-  border: 1px dashed rgb(84, 8, 206);
+  /* background-color: #222222; */
+  background-color: #dddddd;
+  margin-right: 30px;
+  color: #222222;
+  border-radius: 20px;
+  padding: 40px 20px 20px 0;
 }
 
 .currently-learning {
-  width: 40%;
-  border: 1px dashed rgb(8, 206, 124);
+  margin-left: 30px;
+  width: 43%;
   display: flex;
   flex-direction: column;
+  /* background-color: #222222; */
+  background-color: #dddddd;
+  color: #222222;
+  border-radius: 20px;
+  padding: 40px 20px 20px 0;
 }
 .currently-text {
   display: flex;
   flex-direction: row;
-  
+  padding-left: 50px;
 }
 .currently-details-text p {
-  font-size: 18px;
-
+  font-size: 18px; 
   font-family: 'Quicksand', sans-serif;
   font-weight: bold;
   margin: 0;
-  padding: 21px;
+  padding: 22px 0;
 
 }
 i.fas.fa-arrow-alt-circle-right {
